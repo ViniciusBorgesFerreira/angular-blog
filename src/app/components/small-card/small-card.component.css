@@ -1,0 +1,26 @@
+.container__small-card{
+  width: 600px;
+  /* border: 1px solid white; */
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+
+}
+.small-card__photo > img{
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.container__small-card__content{
+  display:flex;
+  flex-direction: row;
+  font-size:12px;
+  margin-bottom: 10px;
+
+}
+.small-card__title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
