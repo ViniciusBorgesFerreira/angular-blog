@@ -4,7 +4,7 @@ import { Component, Input, OnInit } from '@angular/core';
   selector: 'app-big-card',
   standalone: false,
   templateUrl: './big-card.component.html',
-  styleUrl: './big-card.component.css',
+  styleUrls: ['./big-card.component.css', './big-card.responsive.component.css'],
 })
 export class BigCardComponent implements OnInit {
   @Input()
@@ -14,7 +14,7 @@ export class BigCardComponent implements OnInit {
   @Input()
   cardDescription: string = '';
   @Input()
-  id:string="0";
+  id: string = '0';
   constructor() {}
 
   ngOnInit(): void {}
